@@ -27,6 +27,5 @@ for i, ax in enumerate(axs.flatten()):
     ax.set_xticks(np.arange(-5, 6, 1))
     ax.set_yticks(np.arange(-5, 6, 1))
     ax.grid()
-
 plt.tight_layout()
 plt.show()
